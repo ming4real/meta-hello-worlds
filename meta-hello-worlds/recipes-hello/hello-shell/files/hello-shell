@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -eu
+
+echo "hello-shell: installed by a script-only BitBake recipe"

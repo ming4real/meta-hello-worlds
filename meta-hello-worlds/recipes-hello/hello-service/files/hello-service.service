@@ -1,0 +1,9 @@
+[Unit]
+Description=Hello service recipe example
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/hello-service
+
+[Install]
+WantedBy=multi-user.target
