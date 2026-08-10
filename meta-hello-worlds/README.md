@@ -1,4 +1,4 @@
-# Hello World Recipies
+# Hello World Recipes
 
 This is a collection of simple 'Hello World" recipes for a Wrynose Yocto Project, powered by OpenEmbedded.
 
