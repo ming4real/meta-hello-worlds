@@ -1,0 +1,10 @@
+prefix=@CMAKE_INSTALL_PREFIX@
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: hello
+Description: Simple hello library
+Version: @PROJECT_VERSION@
+Libs: -L${libdir} -lhello
+Cflags: -I${includedir}

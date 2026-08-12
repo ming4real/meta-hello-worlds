@@ -1,0 +1,28 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Iain Menzies-Runciman <ming@siliconbladeconsultants.com>
+Date: Wed, 12 Aug 2026 12:00:00 +0200
+Subject: [PATCH] Change hello-make greeting
+
+Change the output to demonstrate applying a local patch to remotely fetched
+source from a Yocto recipe.
+
+Upstream-Status: Inappropriate [Yocto training example]
+
+Signed-off-by: Iain Menzies-Runciman <ming@siliconbladeconsultants.com>
+---
+ hello-make.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/hello-make.c b/hello-make.c
+--- a/hello-make.c
++++ b/hello-make.c
+@@ -2,6 +2,6 @@
+ 
+ int main(void)
+ {
+-    puts("hello-make: built through oe_runmake");
++    puts("hello-patch: remotely fetched source patched by BitBake");
+     return 0;
+ }
+-- 
+2.43.0

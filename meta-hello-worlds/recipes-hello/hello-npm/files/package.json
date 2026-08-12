@@ -1,0 +1,10 @@
+{
+  "name": "hello-npm",
+  "version": "1.0.0",
+  "description": "Simple npm example for Yocto",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "left-pad": "1.3.0"
+  }
+}
